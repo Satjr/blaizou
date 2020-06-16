@@ -1,17 +1,153 @@
-h2, em
-{
-	color:blue;
+/* organisation ok, manquent effets de styles :
+°style class="poste"
+°image doigt?
+°paragraphe effet colonne
+*/
+@font-face {
+    font-family: 'robotoblack';
+    src: url('./fonts/Roboto-Black-webfont.eot');
+    src: url('./fonts/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Roboto-Black-webfont.woff2') format('woff2'),
+         url('./fonts/Roboto-Black-webfont.woff') format('woff'),
+         url('./fonts/Roboto-Black-webfont.ttf') format('truetype'),
+         url('./fonts/Roboto-Black-webfont.svg#robotoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
-.introduction
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('./fonts/Roboto-Regular-webfont.eot');
+    src: url('./fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('./fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('./fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('./fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('./fonts/Roboto-Light-webfont.eot');
+    src: url('./fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Roboto-Light-webfont.woff2') format('woff2'),
+         url('./fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('./fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('./fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
 {
-	font-style: italic;
+	background-image: url(./photos/1546439431.jpg);
+	background-attachment: fixed;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+h1 
+{
+	font-family: 'robotoblack', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 35pt;
+	
+}
+
+header
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 0px 20px 0px;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 10px;
+	border-radius: 10px;
+	
+		
 }
 .photo
 {
+	order: 1;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+
+.intro
+{
+	font-family: 'robotolight', Verdana, Geneva, Tahoma, sans-serif; 
+	font-size: 11pt;
+	
+	order: 2;
+}
+
+.contacts
+{
+	font-family: 'robotoregular', Verdana, Geneva, Tahoma, sans-serif; 
+	font-size: 10pt;
+	margin-left: auto;
+	order: 3;
+	align-self: center;
+}
+
+section
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;	
+
+}
+
+.mind
+{
+	font-family: 'robotolight', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11pt;
+	width: fit-content;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+.job
+{
+	font-family: 'robotolight', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 11pt;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 10px;
+	border-radius: 10px;
 	
 }
-.edreams
+
+h2
 {
-	color: #008B8B	
+	border-bottom: solid black 1.5px;
+	font-family: 'robotoregular', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12pt;
+}
+
+h4
+{
+	font-family: 'robotolight', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+}
+
+a
+{
+	color: #606F7C;
+	text-decoration:none;
+
+}
+
+a:visited
+{
+	color: #7C6D60;
+}
+
+.poste
+{
+	font-family: 'robotoregular', Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+	
 }
