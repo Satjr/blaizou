@@ -1,0 +1,163 @@
+/*
+Bosser sur la police qui est degueu*/
+
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('./fonts/pacifico.woff2') format('woff2'),
+         url('pacifico.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    background-color: #A17962;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'pacificoregular', Arial, Helvetica, sans-serif;
+    color: cornsilk;
+
+}
+
+#bloc_page
+{
+    width: 90%;
+    margin: auto;
+}
+
+
+header, footer
+{
+    display: flex;
+    background-image: url(./photos/amp.jpg) ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+       
+}
+
+
+#titre
+{
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'pacificoregular', Arial, Helvetica, sans-serif;
+    
+    
+}
+
+h1, h2
+{
+    margin-bottom: 0;
+        
+}
+
+
+
+h3
+{
+    
+    font-size: 25px;
+    text-align: center;
+    font-family: 'pacificoregular', Arial, Helvetica, sans-serif;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+     
+}
+
+nav li, a
+{
+    margin: auto;
+    color: cornsilk;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+
+#présentation
+{
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#produits
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 180px 20px 180px;
+    
+}
+
+#produits a
+{
+    
+    width: 450px;   
+    height: 450px;    
+    background-image: url(./photos/acoustique.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 20px;
+    opacity: 0.85;
+    color:#7BA2C4;
+    font-family: 'pacificoregular',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#produits a:hover
+{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#electriques a
+{
+    background-image: url(./photos/electrique.jpg);
+}
+
+#basses a
+{
+    background-image: url(./photos/bass.jpg);
+}
+
+#vintage a
+{
+    background-image: url(./photos/custom.jpg);
+}
+
+footer
+{
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+footer ul
+{
+    list-style: none;
+}
+
+
+
