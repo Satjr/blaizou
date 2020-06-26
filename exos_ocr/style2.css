@@ -1,10 +1,9 @@
-/*
-Bosser sur la police qui est degueu*/
+
 
 @font-face {
     font-family: 'pacificoregular';
     src: url('./fonts/pacifico.woff2') format('woff2'),
-         url('pacifico.woff') format('woff');
+         url('./fonts/pacifico.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
